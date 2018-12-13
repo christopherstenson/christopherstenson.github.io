@@ -32,6 +32,28 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 >
 > You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
 
+### Lists
+
+#### Unordered
+
+* First item
+* Second item
+* Third item
+    * First nested item
+    * Second nested item
+
+#### Ordered
+
+1. First item
+2. Second item
+    1. First nested item
+    2. Second nested item
+3. Third item
+    1. First nested item
+    2. Second nested item
+        1. First double nested item
+        2. Second double nested item
+
 ### Table
 
 | Title 1          | Title 2          | Title 3         | Title 4         |
@@ -46,4 +68,3 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 ![Swiss Alps](../assets/swiss-alps.jpg)
 
 [Swiss Alps](https://unsplash.com/photos/u0DmxB76uF4) by René Reichelt.
-
