@@ -20,15 +20,17 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 
 ### Quote
 
-> "What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?"
-> 
-> "I give."
->
-> "You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog."
+#### Attributed
 
 > They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.
 > 
 > _Benjamin Franklin_
+
+#### Unattributed
+
+> What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
+>
+> You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
 
 ### Table
 
@@ -42,5 +44,6 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 ### Image
 
 ![Swiss Alps](../assets/swiss-alps.jpg)
+
 [Swiss Alps](https://unsplash.com/photos/u0DmxB76uF4) by René Reichelt.
 
