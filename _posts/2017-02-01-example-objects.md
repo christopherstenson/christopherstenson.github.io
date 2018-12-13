@@ -26,11 +26,12 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 
 ### Table
 
-| First Header | Second Header | Third Header   | Fourth Header |
-|--------------|---------------|----------------|---------------|
-| First Entry  | Second Entry  | Third Entry    | Fourth Entry  |
-| Fifth Entry  | Sixth Entry   | Seventh Entry  | Eight Entry   |
-| Ninth Entry  | Tenth Entry   | Eleventh Entry | Twelfth Entry |
+| Title 1          | Title 2          | Title 3         | Title 4         |
+|------------------|------------------|-----------------|-----------------|
+| First entry      | Second entry     | Third entry     | Fourth entry    |
+| Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
+| Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
+| Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
 
 ### Image
 
