@@ -1,6 +1,7 @@
 ---
 title:  "Example Objects"
-categories: objects
+categories: example
+mathjax: true
 ---
 
 ### Paragraph
