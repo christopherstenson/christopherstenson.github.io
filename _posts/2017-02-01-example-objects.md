@@ -35,6 +35,6 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 
 ### Image
 
-![Swiss Alps](/assets/swiss-alps.jpg)
+![Swiss Alps](../assets/swiss-alps.jpg)
 [Swiss Alps](https://unsplash.com/photos/u0DmxB76uF4) by René Reichelt.
 
