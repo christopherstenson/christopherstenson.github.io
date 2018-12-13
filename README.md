@@ -28,8 +28,10 @@ Fork this as `yourname.github.io` and create a `master`-branch if you want to us
 
 ### Based on
 
-- [Jekyll](https://jekyllrb.com/)
+- [Minima](https://github.com/jekyll/minima)
+- [Lagrange](https://github.com/LeNPaul/Lagrange)
 - [Font Awesome](http://fontawesome.io/)
+- [KaTeX](https://katex.org/)
 - [Pygments](https://github.com/richleland/pygments-css)
 - [Pixyll](https://github.com/johnotander/pixyll)
 
