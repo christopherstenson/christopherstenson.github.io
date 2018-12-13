@@ -1,5 +1,5 @@
 ---
-title:  "Lorem ipsum dolor sit amet"
+title:  "Lorem ipsum dolor sit amet consectetur"
 categories: text
 ---
 
