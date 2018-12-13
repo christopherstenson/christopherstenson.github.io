@@ -1,5 +1,5 @@
 ---
-title:  "Example Objects"
+title:  "Demonstrating text and object formatting examples"
 categories: example
 mathjax: true
 ---
