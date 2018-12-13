@@ -35,5 +35,6 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 
 ### Image
 
-![subtle swirly bokeh in the background](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Photography_by_Victor_Albert_Grigas_%281919-2017%29_000172050002_%2837159721864%29.jpg/1039px-Photography_by_Victor_Albert_Grigas_%281919-2017%29_000172050002_%2837159721864%29.jpg)
+![Swiss Alps](/assets/swiss-alps.jpg)
+[Swiss Alps](https://unsplash.com/photos/u0DmxB76uF4) by René Reichelt.
 
