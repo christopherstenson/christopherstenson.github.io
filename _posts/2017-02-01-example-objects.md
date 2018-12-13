@@ -66,8 +66,7 @@ With Markdown, it is possible to emphasize words by making them *italicized*, us
 
 ### Code
 
-{% highlight c %}
-
+```C
 static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
 {
     struct Admin* admin = Identity_check((struct Admin*) vAdmin);
@@ -75,8 +74,7 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
     Dict d = Dict_CONST(String_CONST("asyncEnabled"), Int_OBJ(enabled), NULL);
     Admin_sendMessage(&d, txid, admin);
 }
-
-{% endhighlight %}
+```
 
 ### MathJax
 
