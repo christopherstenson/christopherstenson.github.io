@@ -66,7 +66,8 @@ With Markdown, it is possible to emphasize words by making them *italicized*, us
 
 ### Code
 
-```C
+{% highlight c %}
+
 static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
 {
     struct Admin* admin = Identity_check((struct Admin*) vAdmin);
@@ -74,15 +75,19 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
     Dict d = Dict_CONST(String_CONST("asyncEnabled"), Int_OBJ(enabled), NULL);
     Admin_sendMessage(&d, txid, admin);
 }
-```
+
+{% endhighlight %}
 
 ### MathJax
 
+[Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula) relates the  complex exponential function to the trigonometric functions:
 $$ e^{ix}=cos(x)+isin(x) $$
 
-$$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$
-
+The [Euler-Lagrange](https://en.wikipedia.org/wiki/Lagrangian_mechanics) differential equation is the fundamental equation of calculus of variations:
 $$ \frac{d}{dt}\frac{\partial L}{\partial \dot{q}} = \frac{\partial L}{\partial q} $$
+
+The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation) describes how the quantum state of a quantum system changes with time:
+$$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$
 
 ### Image
 
