@@ -10,6 +10,10 @@ And [this](https://github.com) is what a link looks like. But don't name your li
 
 Only the previous paragraphs will be visible on your home page if you have page excerpts enabled, the complete text will only appear when you click on the post. If you think the following lists are just too boring you can skip to the next post which will show some example objects.
 
+$$
+i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)
+$$
+
 ### Lists
 
 #### Unordered
