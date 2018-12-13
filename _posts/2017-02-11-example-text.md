@@ -1,6 +1,7 @@
 ---
 title:  "Demonstrating some text formatting examples"
 categories: text
+mathjax: true
 ---
 
 This paragraph contains some example text. You can, for instance, make text **appear bold**. Or look at this shiny *italic text*. And why not combine both for some ***bold italic text***. Now `this` is what a `code fragment` looks like, which is enclosed by backticks in markdown.
