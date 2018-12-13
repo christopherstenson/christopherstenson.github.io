@@ -17,6 +17,9 @@ body
   background: #282828
   color: #fff
 
+article
+  background: reduce(2)
+
 {% endif %}
 
 body
@@ -29,6 +32,7 @@ body > header, body > footer
   flex-wrap: wrap
   justify-content: space-between
   align-items: baseline
+  box-shadow: 0 0 2em rgba(0,0,0,0.04)
 
 {% if site.minimal_theme %}
 
@@ -49,21 +53,6 @@ article, body > footer
   border-top: 2px solid
 
 {% else %}
-
-{% if site.dark_theme %}
-
-article
-  background: reduce(2)
-
-{% else %}
-
-article
-  background: reduce(0.5)
-
-body > header, body > footer
-  box-shadow: 0 0 2em #f8f8f8
-
-{% endif %}
 
 body > header, article, body > footer
   padding: 1em calc(26% - 4em)
