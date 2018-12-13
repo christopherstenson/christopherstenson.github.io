@@ -18,7 +18,7 @@ body
   color: #fff
 
 article
-  background: reduce(2)
+  background: reduce(3)
 
 {% endif %}
 
@@ -32,7 +32,6 @@ body > header, body > footer
   flex-wrap: wrap
   justify-content: space-between
   align-items: baseline
-  box-shadow: 0 0 2em rgba(0,0,0,0.04)
 
 {% if site.minimal_theme %}
 
@@ -54,15 +53,16 @@ article, body > footer
 
 {% else %}
 
+body > header, body > footer
+  box-shadow: 0 0 2em rgba(0,0,0,0.04)
+
 body > header, article, body > footer
   padding: 1em calc(26% - 4em)
 
 body > footer
-  background: reduce(6)
   color: reduce(100)
-  border-top: 1px solid reduce(8)
 
-article
+article, body > footer
   border-top: 1px solid reduce(8)
 
 .archive time
