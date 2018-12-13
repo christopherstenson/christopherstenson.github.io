@@ -64,6 +64,8 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 
 ## Code
 
+Embed code by putting `{% highlight language %}` `{% endhighlight %}` blocks around it.
+
 {% highlight c %}
 
 static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
