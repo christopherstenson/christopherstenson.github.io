@@ -18,19 +18,42 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 {% endhighlight %}
 
 
-### Quote
+### Headings
 
-#### Attributed
+# Heading One (h1)
+
+## Heading Two (h2)
+
+### Heading Three (h3)
+
+#### Heading Four (h4)
+
+##### Heading Five (h5)
+
+###### Heading Six (h6)
+
+### Quote
 
 > They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.
 > 
 > _Benjamin Franklin_
 
-#### Unattributed
-
 > What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
 >
 > You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
+
+### Table
+
+| Title 1          | Title 2          | Title 3         | Title 4         |
+|------------------|------------------|-----------------|-----------------|
+| First entry      | Second entry     | Third entry     | Fourth entry    |
+| Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
+| Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
+| Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
+
+### Horizontal Rule
+
+---
 
 ### Lists
 
@@ -46,22 +69,9 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 
 1. First item
 2. Second item
-    1. First nested item
-    2. Second nested item
 3. Third item
     1. First nested item
     2. Second nested item
-        1. First double nested item
-        2. Second double nested item
-
-### Table
-
-| Title 1          | Title 2          | Title 3         | Title 4         |
-|------------------|------------------|-----------------|-----------------|
-| First entry      | Second entry     | Third entry     | Fourth entry    |
-| Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
-| Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
-| Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
 
 ### Image
 
