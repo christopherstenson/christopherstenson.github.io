@@ -27,6 +27,8 @@ comments:                    # embed disqus or isso comments
 #  disqus: "disqus-contrast"
 #  isso: "comments.mysite.org"
 
+highlighter: rouge
+
 remote_theme: niklasbuschmann/contrast
 
 plugins: 
