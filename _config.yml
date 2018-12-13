@@ -31,7 +31,6 @@ remote_theme: niklasbuschmann/contrast
 
 plugins: 
  - jekyll-remote-theme
- - jekyll-relative-links
  - jekyll-feed
  - jekyll-paginate
  - jekyll-default-layout
