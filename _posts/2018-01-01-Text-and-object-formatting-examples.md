@@ -98,10 +98,10 @@ $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2
 
 ![Swiss Alps](../assets/swiss-alps.jpg)
 
-[Swiss Alps](https://unsplash.com/photos/u0DmxB76uF4) by René Reichelt.
+[Swiss Alps](https://unsplash.com/photos/u0DmxB76uF4) by René Reichelt
 
 ![Flower](../assets/flower.jpg)
 
-[Flower](https://unsplash.com/photos/iGrsa9rL11o) by Tj Holowaychuk.
+[Flower](https://unsplash.com/photos/iGrsa9rL11o) by Tj Holowaychuk
 
-Upload an image to the `assets` folder and embed it with `![alt text](/assets/image.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run in a subfolder of your home page.
+Upload an image to the *assets* folder and embed it with `![alt text](/assets/image.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run inside a subfolder.
