@@ -4,13 +4,12 @@ categories: example
 mathjax: true
 ---
 
-## Paragraph
-
 With Markdown, it is possible to emphasize words by making them *italicized*, using *astericks* or _underscores_, or making them **bold**, using **double astericks** or __double underscores__. Of course, you can combine those two formats, with both _**bold and italicized**_ text, using any combination of the above syntax. You can also add a strikethrough to text using a ~~double tilde~~.
 
 You can create [inline links](https://github.com) by wrapping link text in square brackets [ ], and then wrapping the URL in parentheses ( ). For example you can link your [home page](/). You can also inline `code` by using backticks.
 
-## Headings
+
+If you have `show_excerpts` enabled, then this is the first paragraph that is only visible within the article and not in the preview. This is because `excerpt_separator` is set to two newlines which you can see above in the editor.
 
 # Heading One (h1)
 
@@ -42,7 +41,6 @@ You can create [inline links](https://github.com) by wrapping link text in squar
 | Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
 | Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
 | Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
-
 
 ## Lists
 
