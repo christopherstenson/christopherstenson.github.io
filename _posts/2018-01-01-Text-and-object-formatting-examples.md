@@ -112,4 +112,4 @@ _![Swiss Alps](../assets/swiss-alps.jpg)_
 
 You can also embed a lot of stuff, for example from YouTube:
 
-<iframe src="https://www.youtube.com/watch?v=_C0A5zX-iqM" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed?v=_C0A5zX-iqM" frameborder="0" allowfullscreen></iframe>
