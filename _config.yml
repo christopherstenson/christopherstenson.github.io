@@ -27,9 +27,6 @@ comments:                    # embed disqus or isso comments
 #  disqus: "disqus-contrast"
 #  isso: "comments.mysite.org"
 
-markdown: redcarpet
-highlighter: pygments
-
 remote_theme: niklasbuschmann/contrast
 
 plugins: 
