@@ -20,6 +20,12 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 
 ### Quote
 
+> "What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?"
+> 
+> "I give."
+>
+> "You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog."
+
 > They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.
 > 
 > _Benjamin Franklin_
