@@ -107,3 +107,9 @@ You can also use `_![title](/assets/name.jpg))_` to include a bigger image, see 
 _![Swiss Alps](../assets/swiss-alps.jpg)_
 
 [Swiss Alps](https://unsplash.com/photos/u0DmxB76uF4) by René Reichelt
+
+## Embedded Content
+
+You can also embed a lot of stuff, for example from YouTube:
+
+<iframe src="https://www.youtube.com/watch?v=_C0A5zX-iqM" frameborder="0" allowfullscreen></iframe>
