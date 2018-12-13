@@ -4,13 +4,13 @@ categories: example
 mathjax: true
 ---
 
-### Paragraph
+## Paragraph
 
 With Markdown, it is possible to emphasize words by making them *italicized*, using *astericks* or _underscores_, or making them **bold**, using **double astericks** or __double underscores__. Of course, you can combine those two formats, with both _**bold and italicized**_ text, using any combination of the above syntax. You can also add a strikethrough to text using a ~~double tilde~~.
 
 You can create [inline links](https://github.com) by wrapping link text in square brackets [ ], and then wrapping the URL in parentheses ( ). For example you can link your [home page](/). You can also inline `code` by using backticks.
 
-### Headings
+## Headings
 
 # Heading One (h1)
 
@@ -24,7 +24,7 @@ You can create [inline links](https://github.com) by wrapping link text in squar
 
 ###### Heading Six (h6)
 
-### Quote
+## Quote
 
 > They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.
 > 
@@ -34,11 +34,7 @@ You can create [inline links](https://github.com) by wrapping link text in squar
 >
 > You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
 
-### Horizontal Rule
-
----
-
-### Table
+## Table
 
 | Title 1          | Title 2          | Title 3         | Title 4         |
 |------------------|------------------|-----------------|-----------------|
@@ -48,9 +44,9 @@ You can create [inline links](https://github.com) by wrapping link text in squar
 | Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
 
 
-### Lists
+## Lists
 
-#### Unordered
+### Unordered
 
 * First item
 * Second item
@@ -58,7 +54,7 @@ You can create [inline links](https://github.com) by wrapping link text in squar
     * First nested item
     * Second nested item
 
-#### Ordered
+### Ordered
 
 1. First item
 2. Second item
@@ -66,7 +62,11 @@ You can create [inline links](https://github.com) by wrapping link text in squar
     1. First nested item
     2. Second nested item
 
-### Code
+## Horizontal Rule
+
+---
+
+## Code
 
 {% highlight c %}
 
@@ -80,11 +80,11 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 
 {% endhighlight %}
 
-### MathJax
+## MathJax
 
 You can enabled MathJax by setting `mathjax: true` in the [front matter](https://jekyllrb.com/docs/front-matter/) or `_config.yml`.
 
-#### Examples
+### Examples
 
 [Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula) relates the  complex exponential function to the trigonometric functions:
 
@@ -98,7 +98,9 @@ The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equat
 
 $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$
 
-### Image
+## Image
+
+Upload an image to the `assets` folder and embed it with `![alt text](/assets/image.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run in a subfolder of your home page.
 
 ![Swiss Alps](../assets/swiss-alps.jpg)
 
