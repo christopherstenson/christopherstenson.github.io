@@ -1,5 +1,5 @@
 ---
-title:  "Example Text"
+title:  "Demonstrating some text formatting examples"
 categories: text
 ---
 
