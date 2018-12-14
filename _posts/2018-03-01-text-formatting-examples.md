@@ -20,6 +20,17 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 
 ###### Heading Six (h6)
 
+
+## Blockquotes
+
+> This is a single line quote.
+
+> What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
+>
+> You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
+>
+> _Hal Incandenza_
+
 ## Horizontal Rule
 
 ---
@@ -50,13 +61,3 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 | Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
 | Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
 | Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
-
-## Blockquotes
-
-> They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.
-> 
-> _Benjamin Franklin_
-
-> What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
->
-> You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
