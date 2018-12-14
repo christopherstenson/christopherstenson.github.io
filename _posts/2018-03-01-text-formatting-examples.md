@@ -35,10 +35,6 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 >
 > -_Hal Incandenza_
 
-## Horizontal Rule
-
----
-
 ## Lists
 
 ### Unordered
@@ -56,6 +52,10 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 3. Third item
     1. First nested item
     2. Second nested item
+
+## Horizontal Rule
+
+---
 
 ## Table
 
