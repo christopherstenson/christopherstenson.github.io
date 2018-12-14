@@ -33,7 +33,7 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 >
 > You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
 >
-> -_Hal Incandenza_
+> - _Hal Incandenza_
 
 ## Lists
 
