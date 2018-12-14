@@ -4,8 +4,6 @@ categories: example
 mathjax: true
 ---
 
-## Code
-
 Embed code by putting `{{ "{% highlight language " }}%}` `{{ "{% endhighlight " }}%}` blocks around it.
 
 {% highlight c %}
@@ -37,7 +35,7 @@ The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equat
 
 $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$
 
-## Image
+## Images
 
 ![Flower](../assets/flower.jpg)
 
