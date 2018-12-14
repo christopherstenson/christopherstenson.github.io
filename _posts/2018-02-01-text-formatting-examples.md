@@ -20,7 +20,7 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 
 ###### Heading Six (h6)
 
-## Quote
+## Blockquotes
 
 > They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.
 > 
