@@ -37,9 +37,9 @@ $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2
 
 ## Embedded Content
 
-You can also embed a lot of stuff, for example from YouTube:
+You can also embed a lot of stuff, for example from YouTube. To scale the video to 100% width use the `<div class="embed"></div>` wrapper around the iframe.
 
-<iframe src="https://www.youtube.com/embed/_C0A5zX-iqM" frameborder="0" allowfullscreen width="720" height="480"></iframe>
+<div class="embed"><iframe src="https://www.youtube.com/embed/_C0A5zX-iqM" frameborder="0" allowfullscreen></iframe></div>
 
 ## Images
 
