@@ -23,13 +23,17 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 
 ## Blockquotes
 
-> This is a single line quote.
+### Single line
+
+> I hear and I forget. I see and I remember. I do and I understand. - _Confucius_
+
+### Multiline
 
 > What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
 >
 > You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
 >
-> _Hal Incandenza_
+> -_Hal Incandenza_
 
 ## Horizontal Rule
 
