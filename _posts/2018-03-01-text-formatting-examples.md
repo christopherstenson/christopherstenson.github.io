@@ -20,24 +20,9 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 
 ###### Heading Six (h6)
 
-## Blockquotes
+## Horizontal Rule
 
-> They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.
-> 
-> _Benjamin Franklin_
-
-> What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
->
-> You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
-
-## Table
-
-| Title 1          | Title 2          | Title 3         | Title 4         |
-|------------------|------------------|-----------------|-----------------|
-| First entry      | Second entry     | Third entry     | Fourth entry    |
-| Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
-| Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
-| Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
+---
 
 ## Lists
 
@@ -57,6 +42,21 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
     1. First nested item
     2. Second nested item
 
-## Horizontal Rule
+## Table
 
----
+| Title 1          | Title 2          | Title 3         | Title 4         |
+|------------------|------------------|-----------------|-----------------|
+| First entry      | Second entry     | Third entry     | Fourth entry    |
+| Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
+| Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
+| Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
+
+## Blockquotes
+
+> They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.
+> 
+> _Benjamin Franklin_
+
+> What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
+>
+> You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
