@@ -35,6 +35,12 @@ The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equat
 
 $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$
 
+## Embedded Content
+
+You can also embed a lot of stuff, for example from YouTube:
+
+<iframe src="https://www.youtube.com/embed/_C0A5zX-iqM" frameborder="0" allowfullscreen width="720" height="480"></iframe>
+
 ## Images
 
 ![Flower](../assets/flower.jpg)
@@ -48,9 +54,3 @@ You can also use `_![title](/assets/name.jpg))_` to include a bigger image, see 
 _![Swiss Alps](../assets/swiss-alps.jpg)_
 
 [Swiss Alps](https://unsplash.com/photos/u0DmxB76uF4) by René Reichelt
-
-## Embedded Content
-
-You can also embed a lot of stuff, for example from YouTube:
-
-<iframe src="https://www.youtube.com/embed/_C0A5zX-iqM" frameborder="0" allowfullscreen></iframe>
