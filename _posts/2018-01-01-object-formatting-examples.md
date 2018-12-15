@@ -49,7 +49,7 @@ You can also embed a lot of stuff, for example from YouTube. To scale the video 
 
 Upload an image to the *assets* folder and embed it with `![title](/assets/name.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run inside a subfolder.
 
-You can also use `_![title](/assets/name.jpg))_` to include a bigger image, see below:
+You can also emphasize your image to increase the image width:
 
 _![Swiss Alps](../assets/swiss-alps.jpg)_
 
