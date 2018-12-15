@@ -17,9 +17,6 @@ body
   background: #282828
   color: #fff
 
-article
-  background: reduce(2)
-
 {% endif %}
 
 body
@@ -53,8 +50,17 @@ article, body > footer
 
 {% else %}
 
+{% if site.dark_theme %}
+
+article
+  background: reduce(2)
+
+{% else %}
+
 body > header
   box-shadow: 0 0 2em rgba(0, 0, 0, 0.04)
+
+{% endif %}
 
 body > footer
   color: reduce(100)
