@@ -4,8 +4,6 @@ categories: example
 mathjax: true
 ---
 
-## Code
-
 Embed code by putting `{{ "{% highlight language " }}%}` `{{ "{% endhighlight " }}%}` blocks around it.
 
 {% highlight c %}
