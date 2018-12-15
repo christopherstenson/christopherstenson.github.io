@@ -4,6 +4,8 @@ categories: example
 mathjax: true
 ---
 
+### Code
+
 Embed code by putting `{{ "{% highlight language " }}%}` `{{ "{% endhighlight " }}%}` blocks around it.
 
 {% highlight c %}
@@ -19,7 +21,7 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 {% endhighlight %}
 
 
-## MathJax
+### MathJax
 
 You can enable MathJax by setting `mathjax: true` on a page or globally in the `_config.yml`. Some examples:
 
@@ -35,13 +37,13 @@ The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equat
 
 $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$
 
-## Embedded Content
+### Embedded Content
 
 You can also embed a lot of stuff, for example from YouTube. To scale the video to 100% width use the `<div class="embed"></div>` wrapper around the iframe.
 
 <div class="embed"><iframe src="https://www.youtube.com/embed/_C0A5zX-iqM" frameborder="0" allowfullscreen></iframe></div>
 
-## Images
+### Images
 
 ![Flower](../assets/flower.jpg)
 
