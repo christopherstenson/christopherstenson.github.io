@@ -23,13 +23,13 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 ###### Heading Six (h6)
 
 
-## Blockquotes
+### Blockquotes
 
-### Single line
+#### Single line
 
 > I hear and I forget. I see and I remember. I do and I understand. - _Confucius_
 
-### Multiline
+#### Multiline
 
 > What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
 >
@@ -37,11 +37,11 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 >
 > – _Hal Incandenza_
 
-## Horizontal Rule
+### Horizontal Rule
 
 ---
 
-## Table
+### Table
 
 | Title 1          | Title 2          | Title 3         | Title 4         |
 |------------------|------------------|-----------------|-----------------|
@@ -50,9 +50,9 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
 | Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
 | Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
 
-## Lists
+### Lists
 
-### Unordered
+#### Unordered
 
 * First item
 * Second item
@@ -60,7 +60,7 @@ If you have `show_excerpts` enabled, then this is the first paragraph that is on
     * First nested item
     * Second nested item
 
-### Ordered
+#### Ordered
 
 1. First item
 2. Second item
