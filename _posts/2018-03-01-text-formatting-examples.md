@@ -10,6 +10,8 @@ You can create [inline links](https://github.com) by wrapping link text in squar
 
 If you have `show_excerpts` enabled, then this is the first paragraph that is only visible within the article and not in the preview. This is because `excerpt_separator` is set to two newlines which you can see above in the editor.
 
+# Heading One (h1)
+
 ## Heading Two (h2)
 
 ### Heading Three (h3)
