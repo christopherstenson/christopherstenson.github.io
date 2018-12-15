@@ -19,6 +19,9 @@ body
 
 article
   background: reduce(3)
+  
+body > footer
+  backgroun: reduce(6)
 
 {% endif %}
 
@@ -53,8 +56,12 @@ article, body > footer
 
 {% else %}
 
-body > header, body > footer
-  box-shadow: 0 0 2em rgba(0,0,0,0.04)
+body > header
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.04)
+
+body > footer
+  color: reduce(100)
+  background: reduce(4)
 
 body > header, article, body > footer
   padding: 1em calc(26% - 4em)
