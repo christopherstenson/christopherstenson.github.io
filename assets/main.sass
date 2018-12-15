@@ -11,14 +11,6 @@
 @import highlight
 @import anchor
 
-{% if site.dark_theme %}
-
-body
-  background: #282828
-  color: #fff
-
-{% endif %}
-
 body
   display: flex
   font-size: calc(1em + 0.3vw)
@@ -29,6 +21,14 @@ body > header, body > footer
   flex-wrap: wrap
   justify-content: space-between
   align-items: baseline
+
+{% if site.dark_theme %}
+
+body
+  background: #282828
+  color: #fff
+
+{% endif %}
 
 {% if site.minimal_theme %}
 
@@ -42,7 +42,7 @@ article a, b, strong, th
   font-weight: 500
 
 body > header, article, body > footer
-  margin: 0 calc(26% - 4em)
+  margin: 0 calc(24% - 4em)
   padding: 1em 0
 
 article, body > footer
@@ -67,7 +67,7 @@ body > footer
   background: reduce(5)
 
 body > header, article, body > footer
-  padding: 1em calc(26% - 4em)
+  padding: 1em calc(24% - 4em)
 
 article, body > footer
   border-top: 1px solid reduce(8)
