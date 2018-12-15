@@ -19,9 +19,9 @@ navigation:                  # show navigation links in the header
   - about.md
 
 icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
-  envelope: "mailto:niklasbuschmann@users.noreply.github.com"
-  github: "https://github.com/niklasbuschmann/contrast"
-  feed: "feed.xml"
+#  envelope: "mailto:niklasbuschmann@users.noreply.github.com"
+#  github: "https://github.com/niklasbuschmann/contrast"
+#  feed: "feed.xml"
 
 comments:                    # embed disqus or isso comments
 #  disqus: "disqus-contrast"
