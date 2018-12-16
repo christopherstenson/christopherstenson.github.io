@@ -43,6 +43,18 @@ body > footer
 article, body > footer
   border-top: 1px solid reduce(8)
 
+{% if site.dark_theme %}
+
+article
+  background: reduce(2)
+
+{% else %}
+
+body > header
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.04)
+
+{% endif %}
+
 {% endif %}
 
 {% if site.navigation and site.icons %}
