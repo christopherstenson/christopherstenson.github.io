@@ -9,7 +9,6 @@
 @import code
 @import table
 @import highlight
-@import anchor
 
 body
   display: flex
@@ -35,15 +34,21 @@ body
 body
   font-size: 20px
   font-family: system-ui
+  margin: 0 calc(24% - 4em)
 
 body > header, article, body > footer
-  margin: 0 calc(24% - 4em)
   padding: 1em 0
 
 article, body > footer
   border-top: 2px solid
 
 {% else %}
+
+{% if site.show_excerpts %}
+
+@import anchor
+
+{% endif %}
 
 {% if site.dark_theme %}
 
@@ -119,7 +124,7 @@ article footer
 
 .archive time
   min-width: 9em
-  
+
 
 em img
   max-width: 140%
