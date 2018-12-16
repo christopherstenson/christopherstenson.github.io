@@ -23,7 +23,6 @@ icons:                       # show icons in the header, for all possible icons 
   github: "https://github.com/niklasbuschmann/contrast"
   feed: "feed.xml"
 
-
 comments:                    # embed disqus or isso comments
 #  disqus: "disqus-contrast"
 #  isso: "comments.mysite.org"
