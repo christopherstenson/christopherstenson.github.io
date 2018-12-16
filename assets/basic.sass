@@ -29,8 +29,8 @@ body > header, body > footer
   justify-content: space-between
   align-items: baseline
 
-body > footer
-  padding: 1em 0
+article, body > footer
+  border-top: 2px solid
 
 h1
   font-size: 1.75em
@@ -38,8 +38,11 @@ h1
 header h1
   font-weight: inherit
 
-article, body > footer
-  border-top: 2px solid
+nav
+  margin: 1.5em -0.75em
+
+nav a
+  margin: 0 0.75em
 
 article header time
   display: block
@@ -47,16 +50,13 @@ article header time
   margin-bottom: 1.5em
 
 article footer
-  margin: 1.5em 0
-
-nav
-  margin: 1.5em -0.75em
-
-nav a
-  margin: 0 0.75em
+  margin-bottom: 1em
 
 table
   width: 100%
+
+footer
+  padding: 1em 0
 
 {% if site.navigation and site.icons %}
 
