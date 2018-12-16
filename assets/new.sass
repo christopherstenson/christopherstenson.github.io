@@ -1,0 +1,121 @@
+---
+---
+
+@function reduce ($percent)
+  @return rgba(mix(#282828, #fff), $percent / 100)
+
+@import basic
+@import code
+@import table
+@import highlight
+
+{% if site.dark_theme %}
+
+body
+  background: #282828
+  color: #fff
+
+{% endif %}
+
+{% if site.minimal_theme %}
+
+body
+  margin: 0 calc(24% - 4em)
+
+article, body > footer
+  border-top: 2px solid
+
+{% else %}
+
+@import font
+@import anchor
+
+body
+  font-family: system
+
+body > header, article, body > footer
+  padding: 0 calc(24% - 4em)
+
+body > footer
+  color: reduce(100)
+  background: reduce(5)
+
+article, body > footer
+  border-top: 1px solid reduce(8)
+
+{% endif %}
+
+{% if site.navigation and site.icons %}
+
+body > header h1
+  width: 100%
+  margin-bottom: -0.3em
+
+{% endif %}
+
+body
+  display: flex
+  min-height: 100vh
+
+body > header, body > footer
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: baseline
+
+h1
+  font-size: 1.75em
+
+header h1
+  font-weight: inherit
+
+nav
+  margin: 1.5em -0.75em
+
+nav a
+  margin: 0 0.75em
+
+article header time
+  display: block
+  margin-top: -1em
+  margin-bottom: 1.5em
+
+article footer
+  margin: 1.5em 0
+
+footer a
+  margin: 1em 0
+
+table
+  width: 100%
+
+.archive div
+  display: flex
+  align-items: baseline
+
+.archive h3
+  margin: 0.2em 0
+
+.archive h3, .archive a
+  font-weight: inherit
+
+.archive time
+  min-width: 9em
+  color: reduce(100)
+
+em img
+  max-width: 140%
+  margin: 0 -20%
+
+.embed
+    position: relative
+    padding-bottom: 56.25%
+    padding-top: 25px
+    height: 0
+
+.embed iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
