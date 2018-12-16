@@ -27,12 +27,14 @@ article, body > footer
 
 {% else %}
 
-@import font
 @import anchor
 
 body
-  font-family: system
-  font-size: calc(1em + 0.3vw)
+  font-size: 20px
+  font-weight: 200
+
+h1, h2, h3, h4, h5, h6, b, strong, th, article a
+  font-weight: 300
 
 body > header, article, body > footer
   padding: 0 calc(26% - 4em)
