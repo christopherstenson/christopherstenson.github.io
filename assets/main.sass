@@ -5,6 +5,8 @@
   @return rgba(mix(#282828, #fff), $percent / 100)
 
 $link-color: #68f
+$background: {% if site.dark_theme %} #282828 {% else %} #ffffff {% endif %}
+$color: {% if site.dark_theme %} #ffffff {% else %} #000000 {% endif %}
 $normal-weight: {% if site.minimal_theme %} 300 {% else %} 200 {% endif %}
 $bold-weight: {% if site.minimal_theme %} 400 {% else %} 300 {% endif %}
 
@@ -12,14 +14,6 @@ $bold-weight: {% if site.minimal_theme %} 400 {% else %} 300 {% endif %}
 @import code
 @import table
 @import highlight
-
-{% if site.dark_theme %}
-
-body
-  background: #282828
-  color: #fff
-
-{% endif %}
 
 {% if site.minimal_theme %}
 
