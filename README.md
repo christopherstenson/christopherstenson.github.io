@@ -1,0 +1,2 @@
+# christopherstenson.github.io
+thoughts
