@@ -12,6 +12,7 @@ $normal-weight: {% if site.minimal_theme %} 300 {% else %} 200 {% endif %}
 $bold-weight: {% if site.minimal_theme %} 400 {% else %} 300 {% endif %}
 
 @import basic
+@import nav
 @import code
 @import table
 @import highlight
@@ -25,6 +26,9 @@ body > header, article, body > footer
 article, body > footer
   border-top: 2px solid
 
+article footer
+  padding: .5em 0
+
 {% else %}
 
 @import anchor
@@ -35,9 +39,14 @@ body > header, article, body > footer
 body > footer
   color: reduce(100)
   background: reduce(5)
+  padding-top: 1em
+  padding-bottom: 1em
 
 article, body > footer
   border-top: 1px solid reduce(8)
+
+article footer
+  padding: 1em 0
 
 .archive time
   color: reduce(100)
@@ -87,9 +96,6 @@ article header
 
 article header h1
   margin-bottom: 0.2em
-
-article footer
-  padding: .5em 0
 
 table
   width: 100%
