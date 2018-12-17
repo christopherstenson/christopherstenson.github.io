@@ -1,5 +1,5 @@
-title: ""
-author: ""
+title: "thoughts, about things"
+author: "chris stenson"
 description: ""
 
 # Jekyll settings
@@ -20,8 +20,8 @@ navigation:                  # show navigation links in the header
 
 icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
 #  envelope: ""
-#  github: ""
-#  feed: ""
+#  github: "christopherstenson"
+#  feed: "@serebroraya"
 
 comments:                    # embed disqus or isso comments
 #  disqus: ""
