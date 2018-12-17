@@ -18,21 +18,19 @@ $bold-weight: {% if site.minimal_theme %} 400 {% else %} 300 {% endif %}
 
 {% if site.minimal_theme %}
 
-body
+body > header, article, body > footer
+  padding: 1.5em 0
   margin: 0 calc(26% - 4em)
 
 article, body > footer
   border-top: 2px solid
-
-footer a
-  margin: 1.5em 0
 
 {% else %}
 
 @import anchor
 
 body > header, article, body > footer
-  padding: 0 calc(26% - 4em)
+  padding: 1.5em calc(26% - 4em)
 
 body > footer
   color: reduce(100)
@@ -40,9 +38,6 @@ body > footer
 
 article, body > footer
   border-top: 1px solid reduce(8)
-
-footer a
-  margin: 1em 0
 
 .archive time
   color: reduce(100)
@@ -65,7 +60,8 @@ body > header
 
 body > header h1
   width: 100%
-  margin-bottom: -0.3em
+  line-height: 1.3em
+  margin-bottom: 0.75em
 
 {% endif %}
 
@@ -84,20 +80,21 @@ h1
 
 header h1
   font-weight: inherit
+  margin: 0
 
 nav
-  margin: 1.5em -0.75em
+  margin: 0 -0.75em
 
 nav a
   margin: 0 0.75em
 
 article header time
   display: block
-  margin-top: -1em
+  margin-top: 0.3em
   margin-bottom: 1.5em
 
 article footer
-  margin: 2em 0
+  padding: .5em 0
 
 table
   width: 100%
