@@ -8,10 +8,10 @@ paginate: 2                  # number of articles per page, remove to disable pa
 excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lines
 
 # Theme settings
-show_excerpts: true          # show article previews on the home page instead of headlines
+show_excerpts: false         # show article previews on the home page instead of headlines
 date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
 dark_theme: false            # enables dark mode
-minimal_theme: true          # radically minimalistic theme
+minimal_theme: false         # radically minimalistic theme
 
 navigation:                  # show navigation links in the header
   - index.html
@@ -19,10 +19,10 @@ navigation:                  # show navigation links in the header
   - about.md
 
 
-icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
-  envelope: "mailto:niklasbuschmann@users.noreply.github.com"
-  github: "https://github.com/niklasbuschmann/contrast"
-  feed: "feed.xml"
+#icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
+#  envelope: "mailto:niklasbuschmann@users.noreply.github.com"
+#  github: "https://github.com/niklasbuschmann/contrast"
+#  feed: "feed.xml"
 
 comments:                    # embed disqus or isso comments
 #  disqus: "disqus-contrast"
