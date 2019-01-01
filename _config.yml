@@ -1,10 +1,10 @@
-title: "thoughts, about things"
+title: "thoughts about things"
 author: "chris stenson"
-description: ""
+description: "human living in the pacific northwest"
 
 # Jekyll settings
-permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
-paginate: 2                  # number of articles per page, remove to disable pagination
+permalink: /:categories/:year/:month/:day/:title/          # see https://jekyllrb.com/docs/permalinks/
+paginate: 10000              # number of articles per page, remove to disable pagination
 excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lines
 
 # Theme settings
@@ -19,9 +19,8 @@ navigation:                  # show navigation links in the header
   - about.md
 
 icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
-#  envelope: ""
-#  github: "christopherstenson"
-#  feed: "@serebroraya"
+  github: "https://github.com/christopherstenson"
+  twitter: "https://twitter.com/SerebroRaya"
 
 comments:                    # embed disqus or isso comments
 #  disqus: ""

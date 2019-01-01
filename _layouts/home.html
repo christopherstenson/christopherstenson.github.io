@@ -28,10 +28,10 @@ layout: default
   <header><h1 id="posts"><a href="#posts">Posts</a></h1></header>
   {% for post in site.posts %}
   {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
-  <div>
+  <section>
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
     <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  </div>
+  </section>
   {% endfor %}
 </article>
 {% endif %}
