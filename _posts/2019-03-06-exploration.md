@@ -18,7 +18,7 @@ I drifted for weeks. The isolation was an escalating scream, saying nothing — 
 
 I saw someone reaching out. Laying flat on her stomach, on the edge of the makeshift collection of houseboats whose wake I'd been drifting in, she stretched out a pole, and pulled me up and out of the water.
 
-In the light and heat of her hearth, where she offered me a towel, I felt warm for the first time in my life. This must be love, I thought. I’d never felt anything like it. To bask in her kindness and warmth was to forsake knowledge of the chill of the river. It was comfort and acceptance and understanding such as I had never known. I thought she was an angel. I thought she was my savior, and that she had been directed by the cosmos to reach out to me.
+In the light and heat of her hearth, where she offered me a towel, I felt warm for the first time in my life. *This must be love*, I thought. I’d never felt anything like it. To bask in her kindness and warmth was to forsake knowledge of the chill of the river. It was comfort and acceptance and understanding such as I had never known. I thought she was an angel. I thought she was my savior, and that she had been directed by the cosmos to reach out to me.
 
 As a soul that had spent the last two decades barely afloat, even her simple care for me was overwhelming. I could feel the sensation swirling and concentrating in my mind, as she flitted in and out of the room, checking on me each time. The last time that she did, in my confused, post-traumatic haze, I confessed to her that I thought I had fallen in love.
 
@@ -26,7 +26,7 @@ She paused, sat down, and nodded. “I can see why you might feel that way...,�
 
 “You looked cold. We’ve been watching you swim.”
 
-We? I thought.
+*We?* I thought.
 
 She read the question in my face. She was really good at that.
 
