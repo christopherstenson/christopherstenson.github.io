@@ -4,7 +4,7 @@ description: "human living in the pacific northwest"
 
 # Jekyll settings
 permalink: /:categories/:year/:month/:day/:title/          # see https://jekyllrb.com/docs/permalinks/
-paginate: 10000              # number of articles per page, remove to disable pagination
+paginate: 10              # number of articles per page, remove to disable pagination
 excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lines
 
 # Theme settings
