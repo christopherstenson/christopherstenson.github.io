@@ -1,4 +1,4 @@
 ---
 title: Last Shuttle Out
-image_path: /img/art/last-shuttle-out.jpg
+image_path: /img/art/last-shuttle-out.png
 ---
