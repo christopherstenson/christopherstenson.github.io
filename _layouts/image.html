@@ -1,0 +1,7 @@
+---
+layout: page
+title: photos
+---
+{% for photo in site.photos %}
+  <img src="{{ photo.image_path }}" alt="{{ photo.title }}"/>{{ photo.title }}
+{% endfor %}

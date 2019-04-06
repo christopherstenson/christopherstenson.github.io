@@ -30,3 +30,7 @@ plugins:
  - jekyll-feed
  - jekyll-paginate
  - jekyll-default-layout
+
+collections:
+  photos:
+  art:
