@@ -6,6 +6,8 @@ I had a dream that we were all making our way down a river that we had awoken in
 
 I found my first great love in a tumultuous and seemingly lonely stretch of the river near childhood’s end. My arms were getting tired, and I wasn’t sure I would be able to keep my head above the water much longer. I saw the same fatigue and loneliness in her eyes that I knew must be in mine, and so I swam over to her. Together, we found that we could keep one another afloat through the rapids. When we reached calm waters again, we were afraid to separate, and so clung to one another as the current swept us downstream.
 
+
+
 The river widened, and joined and was joined by other rivers bringing their own drifting refugees, and some of us began to thrive. Others, who had not been as lucky, succumbed to the churn of the water. Their bodies left wakes of confused mourners. In the midst of all of this, we swam together.
 
 Among the meandering crowd of humans moving their way down the river, though, we missed that others had begun to share logs, and then to create rafts, boats, flotillas. Entire communities of shared understanding and support had began to develop, unknown to us, and all the while we clung jealously to our own love. Coveted one another in totality. As if we were the only thing in the world that either of us needed.
