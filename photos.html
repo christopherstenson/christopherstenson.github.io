@@ -3,5 +3,5 @@ layout: page
 title: "photos"
 ---
 {% for photo in site.photos %}
-  <a href="{{ photo.image_path }}"><img src="{{ photo.image_path }}" alt="{{ photo.title }}"/></a>
+  <a href="{{ photo.image_path }}"><img src="{{ photo.thumb_path }}" alt="{{ photo.title }}"/></a>
 {% endfor %}
