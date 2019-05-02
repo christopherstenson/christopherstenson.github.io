@@ -3,5 +3,5 @@ layout: page
 title: "art"
 ---
 {% for theart in site.art %}
-  <a href="{{ theart.image_path }}"><img src="{{ theart.thumb_path }}" alt="{{ theart.title }}"/></a>
+  <a href="{{ theart.image_path }}" title="{{ theart.title }}" ><img src="{{ theart.thumb_path }}" alt="{{ theart.title }}"/></a>
 {% endfor %}
