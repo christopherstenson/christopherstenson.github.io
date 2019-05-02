@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "art and photos"
+category: updates
 ---
 
 hello, I've added some of my art and my photos to this site, you can click those pages in the nav bar
