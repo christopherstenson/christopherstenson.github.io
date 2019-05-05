@@ -35,3 +35,13 @@ plugins:
 collections:
   photos:
   art:
+
+defaults:
+  - scope:
+      path: "img/art"
+    values:
+      art: true
+  - scope:
+      path: "img/photo"
+    values:
+      photo: true
