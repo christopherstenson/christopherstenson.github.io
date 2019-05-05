@@ -9,7 +9,7 @@ excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lin
 
 # Theme settings
 show_excerpts: true          # show article previews on the home page instead of headlines
-date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
+date_format: "%Y-%m-%d"     # see http://shopify.github.io/liquid/filters/date/  
 dark_theme: false            # enables dark mode
 minimal_theme: false         # radically minimalistic theme
 
@@ -18,10 +18,11 @@ navigation:                  # show navigation links in the header
   - archive.md
   - art.html
   - photos.html
+  - about.html
 
 icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
-  github: "https://github.com/christopherstenson"
-  twitter: "https://twitter.com/SerebroRaya"
+  github: "https://github.com/chris-stenson"
+  twitter: "https://twitter.com/chris_stenson_"
 
 comments:                    # embed disqus or isso comments
 #  disqus: ""

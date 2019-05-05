@@ -1,6 +1,8 @@
 ---
 layout: post
 title: expedition
+category: writing
+tags: [stories]
 ---
 I had a dream that we were all making our way down a river that we had awoken in, newborn, naked and splashing, bewildered. The current was swift, and the river’s bank was treacherous and inaccessible. We had no choice but to start swimming. As we moved with the water, we grew, and we witnessed our experiences play out around us in elaborate metaphors.
 
