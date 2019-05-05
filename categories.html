@@ -1,0 +1,17 @@
+---
+layout: page
+title: "categories"
+---
+<ul>
+{% for category in site.category %}
+  <li><a href="/{{ category.title }}" title="{{ category.title }}" >{{ category.title }}</a>
+    <ul>
+      {% for post in site.posts %}
+      {% if post.category == category.title %}
+      <li><a href="/{{ post.title }}" title="{{ post.title }}" >{{ post.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>

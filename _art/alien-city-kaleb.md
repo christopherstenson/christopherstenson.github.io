@@ -1,5 +1,5 @@
 ---
-title: Alien Capitol
+title: Alien Capital
 layout: img
 image_path: /img/art/alien-city-kaleb.jpg
 thumb_path: /img/art/alien-city-kaleb_tn.jpg

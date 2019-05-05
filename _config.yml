@@ -1,4 +1,4 @@
-title: "thoughts about things"
+title: "chris stenson"
 author: "chris stenson"
 description: "human living in the pacific northwest"
 
@@ -9,13 +9,14 @@ excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lin
 
 # Theme settings
 show_excerpts: true          # show article previews on the home page instead of headlines
-date_format: "%Y-%m-%d"     # see http://shopify.github.io/liquid/filters/date/  
+date_format: "%A, %B %e, %Y"     # see http://shopify.github.io/liquid/filters/date/  
 dark_theme: false            # enables dark mode
 minimal_theme: false         # radically minimalistic theme
 
 navigation:                  # show navigation links in the header
   - index.html
   - archive.md
+  - categories.html
   - art.html
   - photos.html
   - about.html
@@ -34,15 +35,15 @@ plugins:
  - jekyll-default-layout
 
 collections:
+  category:
+    output: true
   photos:
   art:
 
 defaults:
-  - scope:
-      path: "img/art"
+  -
+    scope:
+      path: ""
+      type: category
     values:
-      art: true
-  - scope:
-      path: "img/photo"
-    values:
-      photo: true
+      layout: "category"

@@ -11,7 +11,7 @@ layout: default
   </header>
   {{ page.excerpt }}
   {% unless page.excerpt == page.content %}
-  <footer><a class="ghost" href="{{ page.url | relative_url }}">read more »</a></footer>
+  <footer><a class="ghost" href="{{ page.url | relative_url }}"> more »</a></footer>
   {% endunless %}
 </article>
 {% endfor %}
@@ -25,7 +25,7 @@ layout: default
 {% else %}
 <article class="archive">
   {{ content }}
-  <header><h1 id="posts"><a href="#posts">Posts</a></h1></header>
+  <header><h1 id="posts">{{ page.title }}</h1></header>
   {% for post in site.posts %}
   {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
   <section>
