@@ -5,6 +5,10 @@ category: recipe
 tags: [recipe]
 ---
 
+This is an easy recipe, and a favorite of mine. It's also my first time writing a recipe from scratch, so feel free to offer suggestions or feedback via the contact mechanisms mentioned on my "About" page.
+
+
+
 ## ingredients
 ### soup
 - 2 boneless, skinless chicken thighs
