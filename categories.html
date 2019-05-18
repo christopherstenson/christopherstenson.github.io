@@ -3,6 +3,8 @@ layout: page
 title: "categories"
 ---
 <ul>
+    <li><a href="/art" title="art" >Art</a></li>
+    <li><a href="/photos" title="photos" >Photos</a></li>
 {% for category in site.category %}
   <li><a href="/{{ category.title | downcase  }}" title="{{ category.title }}" >{{ category.title }}</a>
     <ul>

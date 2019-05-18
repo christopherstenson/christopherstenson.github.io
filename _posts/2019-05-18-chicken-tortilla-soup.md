@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "chicken tortilla soup"
-category: recipe
+category: recipes
 tags: [recipe]
 ---
 
